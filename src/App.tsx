@@ -1,12 +1,14 @@
 import './App.css'
-import {UseStateExample} from './hooks/useState'
+import {UseStateExample} from './hooks/UseState'
+import {UseEffectExample} from './hooks/UseEffect'
 
 function App() {
 
 
 	return (
 		<>
-        	<UseStateExample/>
+            <UseStateExample/>
+			<UseEffectExample/>
 		</>		
 	)
 }
