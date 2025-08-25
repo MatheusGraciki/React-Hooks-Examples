@@ -1,7 +1,7 @@
 import './App.css'
 import {UseStateExample} from './hooks/UseState'
 import {UseEffectExample} from './hooks/UseEffect'
-
+import { UseContextExample } from './hooks/UseContext'
 function App() {
 
 
@@ -9,6 +9,7 @@ function App() {
 		<>
             <UseStateExample/>
 			<UseEffectExample/>
+			<UseContextExample/>
 		</>		
 	)
 }
